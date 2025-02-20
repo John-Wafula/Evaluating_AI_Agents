@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: promptquality
+Version: 0.69.1
+Summary: 🦸 Supercharge your prompts with Galileo Evaluate!
+Home-page: https://www.rungalileo.io/
+License: Apache-2.0
+Keywords: prompt,nlp,llm,quality,language_models,galileo
+Author: Galileo Technologies Inc.
+Author-email: team@rungalileo.io
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Pydantic
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Provides-Extra: all
+Provides-Extra: arrow
+Provides-Extra: langchain
+Requires-Dist: galileo-core (>=2.22.0,<3.0.0)
+Requires-Dist: langchain (>=0.2,<0.3) ; extra == "langchain" or extra == "all"
+Requires-Dist: numpy (<1.25.0) ; python_version >= "3.8" and python_version < "3.9"
+Requires-Dist: numpy (>=1.25.0) ; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pyarrow (>=16,<18) ; (python_version >= "3.8" and python_version < "3.9") and (extra == "arrow" or extra == "all")
+Requires-Dist: pyarrow (>=18,<19) ; (python_version >= "3.9" and python_version < "4.0") and (extra == "arrow" or extra == "all")
+Requires-Dist: pydantic (>=2.7.4,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.1.0,<3.0.0)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Project-URL: Documentation, https://promptquality.docs.rungalileo.io/
+Description-Content-Type: text/markdown
+
+# promptquality
+
+[![Test](https://github.com/rungalileo/promptquality/actions/workflows/ci.yaml/badge.svg)](https://github.com/rungalileo/promptquality/actions/workflows/ci.yaml) [![codecov](https://codecov.io/gh/rungalileo/promptquality/graph/badge.svg?token=PYQITJS1MV)](https://codecov.io/gh/rungalileo/promptquality) ![PyPI - Version](https://img.shields.io/pypi/v/promptquality) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/promptquality) ![PyPI - License](https://img.shields.io/pypi/l/promptquality) ![Code Style - Black](https://img.shields.io/badge/code%20style-black-000000.svg) [![Pydantic v2](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydantic/pydantic/main/docs/badge/v2.json)](https://pydantic.dev)
+
+Accelerate AI System Evaluations with [Galileo Evaluate](https://www.rungalileo.io/)!
+

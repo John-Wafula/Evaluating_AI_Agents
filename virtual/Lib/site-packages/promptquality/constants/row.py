@@ -1,0 +1,1 @@
+GALILEO_PROTECT_NODE_NAME = "GalileoProtect"
